@@ -1,9 +1,10 @@
 #nav{
-    background-color: darkblue;
+    background-color:cyan;
     text-align: center !important;
 }
 #nav ul li a {
-    color: white;
+    color:darkblue;
+    text-decoration: none!important;
 } 
 .navbar-nav{
 text-align: center;
