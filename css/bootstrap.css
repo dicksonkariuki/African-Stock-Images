@@ -4196,9 +4196,9 @@ input[type="button"].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  text-align: center;
 }
-
-.navbar-nav .dropdown-menu {
+.dropdown-menu {
   position: static;
   float: none;
 }
