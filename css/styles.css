@@ -9,3 +9,9 @@
 .navbar-nav{
 text-align: center;
 }
+
+#about h4{
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 20px;
+}
