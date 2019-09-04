@@ -1,5 +1,5 @@
 #nav{
-    background-color:cyan;
+    background-color:darkblue;
     text-align: center !important;
 }
 #nav ul li a {
@@ -14,4 +14,5 @@ text-align: center;
     text-align: center;
     color: darkblue;
     padding-bottom: 20px;
+    padding-top: 40px;
 }
