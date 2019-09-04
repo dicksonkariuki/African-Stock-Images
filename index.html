@@ -5,45 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/materialize.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="js/materilize.js"></script>
-    <script src="js/scripts.js"></script> 
     <title>African Stock Images</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
     <!--Sections-->
-    <nav id="nav" class="navbar navbar-expand-lg navbar-light">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#blogs">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Us</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Quink Links
-            </a>
-            <div id="menu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#about">
+            <img src="images/logo01.png" alt="Logo" style="width:100px;">
+          </a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Quick Links
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <nav class="navbar-right">
+           <ul>
+             <li class="nav-item">
+               <a class="nav-link" href="login.html">LOGIN</a>
+             </li>
+           </ul>
+          </nav>
+        </div>
+      </nav>
+      
     <loginform>
+        
     </loginform>
     <header>
 
@@ -52,15 +59,44 @@
 
     </showcase>
     <about us>
-
+      <div id="about" class="container">
+        <h4>About Us</h4>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/about1.jpeg" class="card-img-top" alt="Hosting">
+              <div class="card-body">
+                <h5 class="card-title">Image Hosting</h5>
+                <p class="card-text">African Stock Images website hosts purely African content online. This births uniqueness and quality of our work to satisfy user needs.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/about2.jpeg" class="card-img-top" alt="Downloads">
+              <div class="card-body">
+                <h5 class="card-title">Content Download</h5>
+                <p class="card-text">Our site provides quality, unique and different brands of African images for download by different users across the globe.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/about03.jpeg" class="card-img-top" alt="Easy Navigation">
+              <div class="card-body">
+                <h5 class="card-title">Navigation</h5>
+                <p class="card-text">Our website helps visitors to navigate easily and smoothly to different regions of African Continent and view Africa in gallery.</p>
+                <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+      </div>
     </about>
     <footer>
 
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+<script   src="js/jquery-3.4.1.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>

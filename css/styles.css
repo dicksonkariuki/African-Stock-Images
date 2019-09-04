@@ -1,10 +1,18 @@
 #nav{
-    background-color: darkblue;
+    background-color:darkblue;
     text-align: center !important;
 }
 #nav ul li a {
-    color: white;
+    color:white;
+    text-decoration: none!important;
 } 
 .navbar-nav{
 text-align: center;
+}
+
+#about h4{
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
