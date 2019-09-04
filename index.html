@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>African Stock Images</title>
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-
 <body>
     <!--Sections-->
 
@@ -51,7 +53,7 @@
       </nav>
       
     <nav>
-
+        
     </nav>
 
     <loginform>
@@ -82,11 +84,13 @@
     <div class="container">
         <div class="box">
             <p class="para">Please login here</p>
-            <form class="form1">
+            <form class="form1" onsubmit="return validateform()">
                 <label for="email">Email address</label><br>
-                <input type="email" id="email" placeholder="name@example.com" size="80"><br><br>
+                <input type="email" id="email" placeholder="name@example.com" size=" 80"><br><br>
                 <label for="password">Password</label><br>
-                <input type="password" id="password" placeholder="password" size="80"><br><br>
+                <input type="password" id="password" placeholder="password" size="80"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
                 <button class="btn btn-primary" type="submit">Login</button>
             </form>
 
@@ -99,7 +103,67 @@
 
 
     <showcase>
-
+        <div class="container">
+            <div class="row">
+                <div class="column-md-4 p-4">
+                                                                                                                                                                                        
+                    <div class="card" style="width:px">
+                        <img class="card-img-top" src="images/East.jpeg" alt="Card image" height="200" width="300">
+                        <div class="card-body">
+                            <h4 class="card-title">East Africa</h4>
+                           <a href="East.html">east Africa</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-md-4 p-4">
+                    <div class="card" style="width:px">
+                        <img class="card-img-top" src="images/West.jpeg" alt="Card image"  height="200" width="300">
+                        <div class="card-body">
+                            <h4 class="card-title">West Africa</h4>
+                            <a href="West Africa">west Africa</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-md-4 p-4">
+                    <div class="card" style="width:px">
+                        <img class="card-img-top" src="images/South.jpeg" alt="Card image"  height="200" width="300">
+                        <div class="card-body">
+                            <h4 class="card-title">South Africa</h4>
+                            <a href="South Africa">south Africa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column-md-4 p-4">
+                    <div class="card" style="width:px">
+                        <img class="card-img-top" src="images/North.jpeg" alt="Card image"  height="200" width="300">
+                        <div class="card-body">
+                            <h4 class="card-title">Solar panels</h4>
+                            <p class="card-text">North Africa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-md-4 p-4">
+                    <div class="card" style="width:px">
+                        <img class="card-img-top" src="images/Central.jpeg" alt="Card image"  height="200" width="300">
+                        <div class="card-body">
+                            <h4 class="card-title">Central Africa</h4>
+                            <h4><a href="categories.html">Explore</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-md-4 p-4">
+                    <div class="card" style="width:px">
+                        <img class="card-img-top" src="images/Coastline.jpeg" alt="Card image"  height="200" width="300">
+                        <div class="card-body">
+                            <h4 class="card-title">Coast</h4>
+                            <p class="card-text">African coastline</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </showcase>
     <about us>
       <div id="about" class="container">
@@ -132,14 +196,59 @@
           </div>
       </div>
     </about>
-    <footer>
-
-    </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <footer class="footer-distributed">
+            <div class="footer-left">
+                <h5>About <span>African Stock Images.</span></h5>
+    
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    |
+                    <a href="#">Blog</a>
+                    |
+                    <a href="#">About</a>
+                    |
+                    <a href="#">Contact</a>
+                </p>
+    
+                <p class="footer-company-name">© 2019 AfricanStockImages.<br/> All rights reserved</p>
+            </div>
+    
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                      <p><span>309 - Ngong Road,</span>
+                        Nairobi- 400710</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+254-69-605-946</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@Africanstockimages.com">support@Africanstockimages.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the African stock images;</span>
+                   We provide visual images of African's nature,people,food,wildlife and games.</p>
+                <div class="footer-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-google"></i></a>         
+                </div>
+            </div>
+    
+        </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script   src="js/jquery-3.4.1.js"></script>
-<script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
 </body>
 
 </html>
