@@ -375,8 +375,9 @@ footer{
 	}
  
 }
-
-
+showcase{
+	padding-top: 100px;
+  }
 .container img{
     width: 320px;
     height: 250px;
