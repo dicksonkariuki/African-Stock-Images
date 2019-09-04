@@ -1,3 +1,4 @@
+
 function validateform() {
   var email = document.getElementById("email");
   var password = document.getElementById("password");
@@ -65,3 +66,4 @@ myInput.onkeyup = function() {
     length.classList.add("invalid");
   }
 };
+

@@ -1,3 +1,27 @@
+
+
+.header{
+    background-image: url(../images/tea.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+
+  
+
+}
+#form{
+    /* padding-top: 200px; */
+    /* padding-bottom:500px; */
+     
+    text-align: center;
+}
+#part{
+    text-align: center;
+    padding-top:150px;
+    color:blue;
+}
 .box {
   background-color: darkblue;
   box-sizing: border-box;
@@ -18,3 +42,9 @@
   padding-top: 1%;
   color: white;
 }
+
+#password,
+#email {
+  border-radius: 3px;
+}
+
