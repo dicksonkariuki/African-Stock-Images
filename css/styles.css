@@ -1,4 +1,23 @@
 
+#nav{
+    background-color:darkblue;
+    text-align: center !important;
+}
+#nav ul li a {
+    color:white;
+    text-decoration: none!important;
+} 
+.navbar-nav{
+text-align: center;
+}
+
+#about h4{
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
 
 .header{
     background-image: url(../images/tea.jpeg);
@@ -46,4 +65,3 @@
 #email {
   border-radius: 3px;
 }
-
