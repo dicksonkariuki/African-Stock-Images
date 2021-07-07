@@ -198,6 +198,7 @@ text-align: center;
     background-position: center;
     position: relative;
     height: 100vh;
+    padding-bottom:40px;
 
   
 
@@ -233,6 +234,7 @@ text-align: center;
   padding-top: 1%;
   color: white;
 }
+
 #password,
 #email {
   border-radius: 3px;

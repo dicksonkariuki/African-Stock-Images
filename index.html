@@ -55,7 +55,6 @@
     <nav>
 
     </nav>
-
     <loginform>
         
     </loginform>
@@ -84,17 +83,21 @@
     <div class="container">
         <div class="box">
             <p class="para">Please login here</p>
-            <form class="form1">
+            <form class="form1" onsubmit="return validateform()">
                 <label for="email">Email address</label><br>
-                <input type="email" id="email" placeholder="name@example.com" size="80"><br><br>
+                <input type="email" id="email" placeholder="name@example.com" size=" 80"><br><br>
                 <label for="password">Password</label><br>
-                <input type="password" id="password" placeholder="password" size="80"><br><br>
+                <input type="password" id="password" placeholder="password" size="80"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
                 <button class="btn btn-primary" type="submit">Login</button>
             </form>
 
         </div>
     </div>
     <!-- end of login form -->
+    <loginform>
+    </loginform>
     <header>
 
     </header>
